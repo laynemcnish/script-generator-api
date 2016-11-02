@@ -1,0 +1,3 @@
+class NodePackageManager < ScriptOption
+
+end

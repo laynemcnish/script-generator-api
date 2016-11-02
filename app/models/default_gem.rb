@@ -1,0 +1,3 @@
+class DefaultGem < ScriptOption
+
+end

@@ -1,0 +1,3 @@
+class DefaultHomebrewPackage < ScriptOption
+
+end

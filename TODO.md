@@ -1,16 +1,14 @@
 Models:
 
 Script
-    - :uuid
-    - :name
-    - :notes
-    - :greeting
-    - has_many :script_options
+    - uuid:string
+    - name:string
+    - notes:text
+    - greeting:text
     
 ScriptOption - polymorphic table to manage the options chosen
-    - :script_id
-    - :type
-    - :additional_options
+    - script:references
+    - additional_options:text
     
 RubyVersionManager < ScriptOption
     - :name

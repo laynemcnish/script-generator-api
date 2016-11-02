@@ -1,0 +1,3 @@
+class DefaultNPMPackage < ScriptOption
+
+end

@@ -1,0 +1,2 @@
+class RubyVersionManager < ScriptOption
+end
